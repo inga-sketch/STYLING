@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Card - CSS</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+        #card {
+            border: 1px solid #333;
+            border-radius: 5px;
+            box-shadow: 0 0 3px 1px #000;
+            background-color: #ddd;
+            padding: 10px;
+            padding-bottom: 20px;
+            font-family: sans-serif;
+        }
+        .card-image {
+            width: 100%;
+            border-radius: 5px 5px 0 0;
+        }
+        .description {
+            color: #124936;
+        }
+        h2{
+            border-bottom: 1px solid #3d2311;
+            padding-bottom: 7px;
+        }
+        .card-buy-link {
+           text-decoration: none;
+           background-color: blue;
+           color: white;
+           padding: 10px;
+        }
+        span{
+            background-color: crimson;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="card">
+        <div>
+            <img class="card-image" src="https://img.freepik.com/free-photo/3d-cartoon-beauty-products_23-2151503319.jpg" alt=" Beauty Product Photography Images ">
+        </div>
+        <div>
+            <h2 class="description">Beauty Product. Photography Images.</h2>
+            <p class="description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui autem nemo veniam minus aspernatur minima saepe officiis, suscipit at quae cum aliquam esse, eligendi aut aperiam corporis nostrum omnis maiores? Nemo aliquid maiores fuga error neque? Magnam, illo odit! Sapiente expedita doloribus quos minus ullam veniam mollitia repellendus nulla <span> eius?</span></p>
+        </div>
+        <div>
+            <a class="card-buy-link" href="/buy">BUY</a>
+        </div>
+
+    </div>
+    
+</body>
+</html>
